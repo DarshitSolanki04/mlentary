@@ -1,6 +1,6 @@
 ml:
 	pdflatex mlentary.tex
-	evince mlentary.pdf
+	evince mlentary.pdf &
 
 clean:
 	rm *.aux
@@ -10,4 +10,4 @@ clean:
 ml-full:
 	pdflatex mlentary.tex
 	pdflatex mlentary.tex
-	evince mlentary.pdf
+	evince mlentary.pdf &
